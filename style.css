@@ -1,0 +1,52 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+body {
+    font-family: 'Nova Square', Verdana, 'Geneva', Tahoma, sans-serif;
+    color: white;
+    background: #333;
+    padding-top: 1em;
+}
+section {
+    text-align: center;
+}
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    width: 384px;
+    margin: 40px auto;
+    background: #2a52a2;
+    border: 4px solid #2a52a2;
+    box-shadow: 0 0 0 1px white;
+    border-radius: 3px;
+}
+.cell {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 2px #2a52a2;
+    border: 2px solid #2a52a2;
+    border-radius: 50%;
+    background: #1a3365;
+}
+.col-tab {
+    background: #1a3365;
+    box-shadow: 0 0 0 2px #2a52a2;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.Red {
+    background: #cc0000;
+}
+.Yellow {
+    background: #ffbf00;
+}
+
+button {
+    font-family: 'Nova Square', Verdana, 'Geneva', Tahoma, sans-serif;
+    border: 1px solid white;
+    background: #800000;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 8px;
+}
