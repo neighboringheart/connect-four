@@ -86,7 +86,7 @@ const winningConditions = [
 function handleResultValidation() {
     let roundWon = false;
     // column check
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i <= 6; i++) {
         // traverse each column individually
         const column = gameState[i];
         for (let j = 0; j <= 2; j++) {
